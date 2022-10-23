@@ -1,6 +1,5 @@
 import time
 from loginFunct import login
-from recFunct import filters
 from recFunct import gpuRec
 
 needDict = {
