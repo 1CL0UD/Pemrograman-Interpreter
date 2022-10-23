@@ -13,6 +13,7 @@ needDict = {
     7 : "Video Editing"
 }
 
+y='y'
 login()
 time.sleep(2)
 print(needDict)
