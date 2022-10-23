@@ -6,7 +6,7 @@ gpuDedicated = gpuData.copy().loc[gpuData['Integrated']=='No']
 
 def filters(cat, x):
     # copy parameter category yang di filter ke variable output
-    output = gpuDedicated[(gpuDedicated[cat]=>x)].copy().head(10)
+    output = gpuDedicated[(gpuDedicated[cat]>=x)].copy().head(10)
     print(output[["Name", cat]])
 
 def gpuRec(x):
