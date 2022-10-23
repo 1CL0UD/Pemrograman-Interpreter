@@ -20,7 +20,7 @@ while y=='y' or y=='Y':
     x = int(input("Masukkan Kebutuhan anda: "))
     gpuRec(int(x))
     if x>0 and x<=7:
-        str(input("Ingin menggunakan program lagi? Y/y\n"))
+        y = str(input("Ingin menggunakan program lagi? Y/y\n"))
         os.system('cls')
     else:
         print("Input salah, mohon coba lagi dengan input yang sesuai")
