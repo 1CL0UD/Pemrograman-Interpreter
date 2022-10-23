@@ -8,7 +8,7 @@ def filters(cat, x):
     # copy parameter category yang di filter ke variable output
     output = gpuDedicated[(gpuDedicated[cat]>=x)].copy()
     output1 = output[(output[cat]<=y)].copy().head(10)
-    print(output[["Name", cat]])
+    print(output1[["Name", cat]])
 
 def gpuRec(x):
     # VRAM > 1GB
