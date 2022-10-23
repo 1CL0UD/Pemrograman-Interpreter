@@ -1,12 +1,12 @@
 import pandas as pd
-gpuData = pd.read_csv("gpuData.csv")
+gpuData = pd.read_csv("https://raw.githubusercontent.com/Shalahuddin-Abdul/Pemrograman-Interpreter/main/Praktikum/UTS/gpuData.csv")
 
 
 gpuDedicated = gpuData.copy().loc[gpuData['Integrated']=='No']
 
 def filters(cat, x):
     # copy parameter category yang di filter ke variable output
-    output = gpuDedicated[(gpuDedicated[cat]>x)].copy().head(10)
+    output = gpuDedicated[(gpuDedicated[cat]=>x)].copy().head(10)
     print(output[["Name", cat]])
 
 def gpuRec(x):
