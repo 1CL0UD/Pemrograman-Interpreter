@@ -22,7 +22,7 @@ desc = str(input('desc: ')); embed.setDesc(desc)
 #embeds input
 data = {
     #webhook profile picture
-    'avatar' : 'https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    'avatar_url' : 'https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500',
     'username' : 'Webhook',
     'content' : embed.getContent(),
     'embeds' : [{
