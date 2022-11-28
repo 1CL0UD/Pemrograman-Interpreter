@@ -1,0 +1,3 @@
+'author' : [{
+        #     'name' : embed.getAuthorName()
+        # }],
