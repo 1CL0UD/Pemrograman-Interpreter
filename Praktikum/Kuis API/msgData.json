@@ -1,0 +1,15 @@
+{
+    "avatar" : "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "username" : "Webhook",
+    "content" : "Hello World!",
+    "embeds" : [{
+        "thumbnail" : {
+            "url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png"
+        },
+        "author" : {
+            "name" : "Shalahuddin Abdul Aziz"
+        },
+        "title" : "Kuis API Prak PI",
+        "description" : "NPM: 2117051083"
+    }]
+}
